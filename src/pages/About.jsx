@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bg from "/SHOOTING.mp4";
+import bg from "/SHOOTING.mp4"
 import dp from "/myphoto.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
