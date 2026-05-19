@@ -38,7 +38,7 @@ function Footer() {
               tracking-tight
             "
           >
-            Aditya<span className="text-cyan-400">_lab</span>
+            Addy's<span className="text-cyan-400">_Lab</span>
           </h1>
 
           <p

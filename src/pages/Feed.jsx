@@ -376,6 +376,7 @@ function Feed() {
                 className="
                   absolute top-5 right-5
                   z-20
+                  text-3xl cursor-pointer
                   w-11 h-11
                   rounded-2xl
                   border border-white/10
@@ -406,6 +407,7 @@ function Feed() {
                     max-w-full
                     max-h-full
                     object-contain
+                    rounded-2xl
                   "
                 />
               </div>
@@ -464,7 +466,7 @@ function Feed() {
                         font-mono
                       "
                     >
-                      MY SCORE
+                      {selectedPost.score?"MY SCORE":""}
                     </p>
                   </div>
 
@@ -525,7 +527,7 @@ function Feed() {
                           text-white/80
                         "
                       >
-                        "{selectedPost.review}"
+                        {selectedPost.review}
                       </p>
                     </div>
 

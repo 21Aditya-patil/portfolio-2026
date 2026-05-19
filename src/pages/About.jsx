@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bg from "/SHOOTING.mp4"
+import bg from "/SHOOTING.mp4";
 import dp from "/myphoto.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -164,6 +164,15 @@ function About() {
             <AiOutlineGlobal />
             Asia/India
           </div>
+          <div>
+            <a
+              href="/Aditya Patil.pdf"
+              download
+              className="inline-flex items-center justify-center rounded-full border border-cyan-400/20 bg-cyan-400/10 px-5 py-3 text-sm uppercase tracking-[0.2em] text-cyan-300 transition-all duration-300 hover:bg-cyan-400/20 hover:scale-105"
+            >
+              Download CV
+            </a>
+          </div>
 
           <div
             className="
@@ -179,7 +188,8 @@ function About() {
                   px-3 py-1.5
                   text-xs sm:text-sm
                   cursor-pointer
-                  hover:bg-white/20
+                  hover:text-cyan-300
+                  hover:bg-cyan-400/20
                   bg-white/10
                   rounded-full
                   border border-white/10
@@ -209,7 +219,8 @@ function About() {
                 aria-label={social.aria}
                 className="
                   bg-white/10
-                  hover:bg-white/20
+                  hover:text-cyan-300
+                  hover:bg-cyan-400/20
                   border border-white/10
                   transition-all duration-300
                   px-4 py-2
@@ -381,7 +392,7 @@ function About() {
                         px-3 py-1.5
                         text-xs sm:text-sm
                         cursor-pointer
-                        hover:bg-white/20
+                        hover:bg-cyan-400/20 hover:text-cyan-400
                         bg-white/10
                         rounded-full
                         border border-white/10
@@ -421,7 +432,7 @@ function About() {
                         px-3 py-1.5
                         text-xs sm:text-sm
                         cursor-pointer
-                        hover:bg-white/20
+                        hover:bg-cyan-400/20 hover:text-cyan-400
                         bg-white/10
                         rounded-full
                         border border-white/10
@@ -461,7 +472,7 @@ function About() {
                         px-3 py-1.5
                         text-xs sm:text-sm
                         cursor-pointer
-                        hover:bg-white/20
+                        hover:bg-cyan-400/20 hover:text-cyan-400
                         bg-white/10
                         rounded-full
                         border border-white/10
