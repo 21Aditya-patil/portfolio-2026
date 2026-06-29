@@ -9,7 +9,9 @@ function Navbar() {
     <div
       className="
         fixed
-        top-4
+        bottom-4
+    sm:bottom-auto
+    sm:top-4
         left-1/2
         -translate-x-1/2
         z-50
@@ -19,7 +21,6 @@ function Navbar() {
         px-2
       "
     >
-
       <div
         className="
           absolute inset-0
@@ -44,7 +45,6 @@ function Navbar() {
           shadow-[0_0_40px_rgba(0,0,0,0.5)]
         "
       >
-
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -76,10 +76,7 @@ function Navbar() {
             "
           />
 
-          <span className="hidden sm:block">
-            Feed
-          </span>
-
+          <span className="hidden sm:block">Feed</span>
         </NavLink>
 
         <NavLink
@@ -113,10 +110,7 @@ function Navbar() {
             "
           />
 
-          <span className="hidden sm:block">
-            Projects
-          </span>
-
+          <span className="hidden sm:block">Projects</span>
         </NavLink>
 
         <NavLink
@@ -150,14 +144,9 @@ function Navbar() {
             "
           />
 
-          <span className="hidden sm:block">
-            About
-          </span>
-
+          <span className="hidden sm:block">About</span>
         </NavLink>
-
       </div>
-
     </div>
   );
 }
