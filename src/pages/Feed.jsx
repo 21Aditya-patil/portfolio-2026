@@ -63,8 +63,8 @@ function Feed() {
         className="
           relative z-10
           flex flex-col items-center
-          pt-24 sm:pt-28 md:pt-32
-          pb-20 sm:pb-24
+          pt-16 sm:pt-24 md:pt-28
+          pb-16 sm:pb-20
           px-4 sm:px-6 lg:px-8
           text-white
         "
@@ -120,7 +120,7 @@ function Feed() {
         <div
           className="
             w-full
-            mt-12 sm:mt-16
+            mt-8 sm:mt-12
             flex flex-col gap-4
             max-w-6xl
           "

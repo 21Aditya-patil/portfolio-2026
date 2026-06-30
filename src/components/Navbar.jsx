@@ -9,16 +9,19 @@ function Navbar() {
     <div
       className="
         fixed
-        bottom-4
-    sm:bottom-auto
-    sm:top-4
+        bottom-3
+        sm:bottom-auto
+        sm:top-4
         left-1/2
         -translate-x-1/2
         z-50
-        w-[95%]
+        w-[calc(100%-1rem)]
+        max-w-104
         sm:w-auto
+        sm:max-w-none
         flex justify-center
-        px-2
+        px-1
+        sm:px-2
       "
     >
       <div
@@ -39,8 +42,8 @@ function Navbar() {
           rounded-full
           border border-white/10
           bg-black/40
-          px-2 sm:px-3
-          py-2
+          px-1.5 sm:px-3
+          py-1.5 sm:py-2
           backdrop-blur-xl
           shadow-[0_0_40px_rgba(0,0,0,0.5)]
         "

@@ -125,10 +125,10 @@ function About() {
         relative z-10
         w-full
         flex flex-col xl:flex-row
-        gap-16 xl:gap-20
-        pt-24 sm:pt-28
-        px-5 sm:px-8 md:px-12 lg:px-20 xl:px-32
-        pb-20
+        gap-12 sm:gap-16 xl:gap-20
+        pt-16 sm:pt-20 md:pt-24
+        px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32
+        pb-16 sm:pb-20
       "
       >
         <div

@@ -57,18 +57,18 @@ function Projects() {
       <div className="fixed bottom-0 left-0 w-full h-40 bg-gradient-to-t from-black via-black/70 to-transparent z-[2]" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center pt-28 pb-20 px-6 text-white">
+      <div className="relative z-10 flex flex-col items-center pt-20 sm:pt-24 pb-16 px-4 sm:px-6 text-white">
         {/* Heading */}
-        <div className="flex flex-col items-center gap-3 mb-12">
+        <div className="flex flex-col items-center gap-2 sm:gap-3 mb-8 sm:mb-10">
           <p className="text-cyan-400 uppercase tracking-[0.4em] text-xs">
             // Selected Work
           </p>
 
-          <h1 className="text-5xl md:text-6xl font-bold text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
             My Work
           </h1>
 
-          <p className="max-w-2xl text-center text-white/50 leading-relaxed">
+          <p className="max-w-2xl text-center text-sm sm:text-base text-white/50 leading-relaxed">
             Building products focused on real-world usability, immersive user
             experience, and modern full-stack architecture.
           </p>
